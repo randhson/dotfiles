@@ -92,6 +92,15 @@ sudo apt-get install gparted
 ### Virtual Box
 sudo apt-get install virtualbox
 
+### Dropbox
+cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+~/.dropbox-dist/dropboxd
+
+### Systemback
+sudo apt-add-repository ppa:nemh/systemback
+sudo apt-get update
+sudo apt-get install systemback
+
 ######################################################## GitHub
 
 ### xclip - generate ssh key for github
